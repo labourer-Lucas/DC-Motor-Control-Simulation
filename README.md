@@ -15,7 +15,7 @@ Results
 
 <img src="README.assets/image-20230508131824825.png" alt="image-20230508131824825" style="zoom:50%;" />
 
-## [Single loop control( PWM based)](Project\single-loop-control-PWM\DCmotor_single_loop.slx)
+## [Single loop control( PWM based)](Project/single-loop-control-PWM/DCmotor_single_loop.slx)
 
 Simulink model:
 
