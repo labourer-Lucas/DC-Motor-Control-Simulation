@@ -24,5 +24,12 @@ Simulink model:
 Results:
 <img src="README.assets/image-20230508132753952.png" alt="image-20230508132753952" style="zoom:50%;" />
 
+## [Dual loop( speed and current) motor control](Project/dual-loop-control-PWM/DCdualLoop.slx")
 
+Simulink model:
 
+![image-20230508162051558](README.assets/image-20230508162051558.png)
+
+Results:
+
+![image-20230508162201496](README.assets/image-20230508162201496.png)
