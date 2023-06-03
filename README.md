@@ -1,7 +1,7 @@
-# DC-Motor-and-Simulation
+# DC-Motor-Simulation
 This is a collection of DC motor simulation using matlab simulink , from starting a DC motor to double close loop of DC Motor with PWM. 
 
-## multistage starting
+## [multistage starting](Project/multistage-starting/DC_motor_multi_starting.slx)
 
 Simulink model:
 
@@ -24,8 +24,7 @@ Simulink model:
 Results:
 <img src="README.assets/image-20230508132753952.png" alt="image-20230508132753952" style="zoom:50%;" />
 
-## [Dual loop( speed and current) motor control](Project/dual-loop-control-PWM/DCdualLoop.slx")
-
+## [Dual loop( speed and current) motor control](Project/dual-loop-control-PWM/DCdualLoop.slx)
 Simulink model:
 
 ![image-20230508162051558](README.assets/image-20230508162051558.png)
