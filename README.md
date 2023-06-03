@@ -32,3 +32,5 @@ Simulink model:
 Results:
 
 ![image-20230508162201496](README.assets/image-20230508162201496.png)
+
+## Dual loop with current limit
