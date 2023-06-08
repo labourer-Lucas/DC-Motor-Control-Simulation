@@ -40,3 +40,35 @@ Results:
 ![image-20230603170309791](README.assets/image-20230603170309791.png)
 
 ![image-20230603170322520](README.assets/image-20230603170322520.png)
+
+### Motor parameters
+
+Dc motor:
+
+| Un   | In   | nN      | Ra     | $\lambda$ |
+| ---- | ---- | ------- | ------ | :-------: |
+| 220V | 136A | 1460rpm | 0.2ohm |    1.5    |
+
+PWM source:
+
+| Ts       | Ks   |
+| -------- | ---- |
+| 0.00167s | 40   |
+
+Armature circuit:
+
+| R      | L    |
+| ------ | ---- |
+| 0.5ohm | 15mH |
+
+$GD^2=22.5N\cdot m^2$ and $J=m\rho^2=\frac{GD^2}{4g}$
+
+Current feedback coefficient: β=0.05V/A;
+
+Speed feedback coefficient: α=0.007V/rpm;
+
+Time constants of filters: Toi=0.002s, Ton=0.01s.
+
+Block diagram:
+
+![image-20230608225910470](assets/image-20230608225910470.png)
