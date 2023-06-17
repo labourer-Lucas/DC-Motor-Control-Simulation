@@ -1,0 +1,11 @@
+time=out.tout;
+Ia=out.yout{1}.Values.iA.Data;
+n=9.55*out.yout{1}.Values.w.Data;
+Torque_out=out.yout{1}.Values.Te.Data;
+Torqur_ref=out.yout{2}.Values.Data;
+n_ref=out.yout{3}.Values.Data;
+figure;
+plot(time,n_ref);
+hold on;
+plot(time,n);
+hold off;
