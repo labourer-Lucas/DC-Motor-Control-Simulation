@@ -71,3 +71,4 @@ Time constants of filters: Toi=0.002s, Ton=0.01s.
 
 Block diagram:
 
+![image-20230608225910470](README.assets/image-20230608225910470.png)
