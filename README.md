@@ -1,41 +1,14 @@
 # DC-Motor-Simulation
-This is a collection of DC motor simulation using matlab simulink , from starting a DC motor to double close loop of DC Motor with PWM. 
-## Requirement
+
+This is a collection of DC motor speed control simulation, including single(speed) loop and Dual(speed and current) loop speed control. 
+
+## Requirement for matlab
+
 Matlab/Simulink 2023b
 
-## [multistage starting](Project/multistage-starting/DC_motor_multi_starting.slx)
+## Project review
 
-Simulink model:
-
-![image-20230508131739964](README.assets/image-20230508131739964.png)
-
-Multistage switch:
-
-![image-20230508131939032](README.assets/image-20230508131939032.png)
-
-Results
-
-<img src="README.assets/image-20230508131824825.png" alt="image-20230508131824825" style="zoom:50%;" />
-
-## [Single loop control( PWM based)](Project/single-loop-control-PWM/DCmotor_single_loop.slx)
-
-Simulink model:
-
-![image-20230508132652972](README.assets/image-20230508132652972.png)
-
-Results:
-<img src="README.assets/image-20230508132753952.png" alt="image-20230508132753952" style="zoom:50%;" />
-
-## [Dual loop( speed and current) motor control](Project/dual-loop-control-PWM/DCdualLoop.slx)
-Simulink model:
-
-![image-20230508162051558](README.assets/image-20230508162051558.png)
-
-Results:
-
-![image-20230508162201496](README.assets/image-20230508162201496.png)
-
-## Project with specific requirment
+This Project investigates DC motor drive systems, focusing on single-loop and dual-loop speed control systems, and simulates their behavior using Matlab Simulink. Our aim is to analyze and compare the performance of these two types of DC motor drive systems.
 
 ### Requirment
 
@@ -71,6 +44,20 @@ Speed feedback coefficient: α=0.007V/rpm;
 
 Time constants of filters: Toi=0.002s, Ton=0.01s.
 
-Block diagram:
+### Block diagram
 
 ![image-20230608225910470](README.assets/image-20230608225910470.png)
+
+### Simulink model for single-loop control
+
+![dual loop simulink](README.assets/dual loop simulink-1689597088139.png)
+
+### Simulink model for dual-loop control
+
+![single simulink](README.assets/single simulink-1689597063995.png)
+
+`Results_Analysis_singleloop.m` is used to analyze the results after running `DCmotor_single_loop.slx`.
+
+`Results_Analysis_comparasion.m` is used to analyze the results after running `DCdualLoop_SinlgeLoop_Comparasion.slx`.
+
+`Results_Analysis_dualloop.m` is used to analyze the results after running  `DCdualLoop.slx`.
