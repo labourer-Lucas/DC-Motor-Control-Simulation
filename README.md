@@ -50,11 +50,11 @@ Time constants of filters: Toi=0.002s, Ton=0.01s.
 
 ### Simulink model for single-loop control
 
-![dual loop simulink](README.assets/single simulink-1689597063995.png)
+![dual loop simulink](README.assets/dual loop simulink.png)
 
 ### Simulink model for dual-loop control
 
-![single simulink](README.assets/single simulink-1689597063995.png)
+![single simulink](README.assets/single simulink.png)
 
 `Results_Analysis_singleloop.m` is used to analyze the results after running `DCmotor_single_loop.slx`.
 
