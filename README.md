@@ -50,7 +50,7 @@ Time constants of filters: Toi=0.002s, Ton=0.01s.
 
 ### Simulink model for single-loop control
 
-![dual loop simulink](README.assets/dual loop simulink-1689597088139.png)
+![dual loop simulink](README.assets/single simulink-1689597063995.png)
 
 ### Simulink model for dual-loop control
 
