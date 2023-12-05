@@ -61,3 +61,11 @@ Time constants of filters: Toi=0.002s, Ton=0.01s.
 `Results_Analysis_comparasion.m` is used to analyze the results after running `DCdualLoop_SinlgeLoop_Comparasion.slx`.
 
 `Results_Analysis_dualloop.m` is used to analyze the results after running  `DCdualLoop.slx`.
+
+## Report Overview
+
+![image-20231205233353345](README.assets/image-20231205233353345.png)
+
+![image-20231205233411322](README.assets/image-20231205233411322.png)
+
+![image-20231205233422444](README.assets/image-20231205233422444.png)
